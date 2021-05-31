@@ -1,0 +1,23 @@
+{
+  "name": "cognizant-summative1-master",
+  "version": "1.0.0",
+  "description": "Algorithm that retrieves distance to target within a 2D array",
+  "main": "shortestPath.js",
+  "scripts": {
+    "test": "mocha shortestPath.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NCorreia100/shortestPath.git"
+  },
+  "author": "Nuno Correia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NCorreia100/shortestPath/issues"
+  },
+  "homepage": "https://github.com/NCorreia100/shortestPath#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
+}
