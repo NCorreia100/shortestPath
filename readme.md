@@ -1,4 +1,4 @@
- **Shortest Path **
+ **Shortest Path**
  
  Given a 2-D array as input containing 0s (open area) and 1s (obstacle), find target marked with 9 and return number of moves.
 
@@ -16,7 +16,7 @@ If there's no solution return -1.
       shortestPath(inputEx); ~~~> 3
 
 
-solution approach:
+**Solution Approach:**
 
 Used a linked-list containing a queue (FIFO) of nodes. A 2D array initialized to its 0 value was also used to keep track of which coordinates were already checked to prevent circling back.
 
